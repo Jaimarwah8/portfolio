@@ -3,142 +3,107 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Jai Marwah | Filmmaker, DOP, Editor</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <title>Jai Marwah | Filmmaker</title>
   <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background-color: #fff;
-      color: #111;
+      font-family: 'Arial', sans-serif;
+      background-color: #000;
+      color: #fff;
       line-height: 1.6;
+      padding: 2rem;
+    }
+
+    h1, h2, h3 {
+      font-weight: 400;
     }
 
     header {
-      background: #000;
-      color: white;
-      padding: 2rem;
       text-align: center;
+      padding: 8vh 0 6vh;
     }
 
     header h1 {
-      margin: 0;
-      font-size: 2.5rem;
+      font-size: 3rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
     }
 
-    header p {
-      margin: 0.5rem 0 0;
+    header h2 {
+      font-size: 1rem;
+      opacity: 0.7;
+      margin-top: 0.5rem;
     }
 
-    .container {
-      max-width: 960px;
-      margin: 2rem auto;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+      margin: 3rem 0;
+    }
+
+    .grid iframe, .grid a {
+      width: 100%;
+      aspect-ratio: 16/9;
+      background: #111;
+      border: none;
+    }
+
+    .about, .contact {
+      max-width: 700px;
+      margin: 4rem auto;
+      text-align: center;
       padding: 0 1rem;
     }
 
-    h2 {
-      color: #000;
-      border-bottom: 2px solid #eee;
-      padding-bottom: 0.25rem;
-      margin-top: 2rem;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    li {
-      margin: 0.5rem 0;
-    }
-
-    .projects a {
-      display: block;
+    a {
+      color: #00ccff;
       text-decoration: none;
-      color: #0077cc;
-      margin: 0.5rem 0;
     }
 
-    .contact {
-      text-align: center;
-      margin: 3rem 0;
+    a:hover {
+      text-decoration: underline;
     }
 
     footer {
       text-align: center;
-      font-size: 0.9rem;
-      color: #777;
+      font-size: 0.8rem;
       padding: 2rem 0;
-      background-color: #f9f9f9;
+      color: #777;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Jai Marwah</h1>
-    <p>Filmmaker // DOP // Editor</p>
-    <p>📍 Based in Dubai | 🎓 BA Honours Film (2023–2026)</p>
+    <h2>Filmmaker / DOP / Editor</h2>
   </header>
 
-  <div class="container">
-    <section>
-      <h2>About</h2>
-      <p>Experienced filmmaker and video editor with six years of expertise in video editing, cinematography, and filmmaking. Strong creative, technical, and analytical skills with a collaborative mindset and exceptional attention to detail.</p>
-    </section>
+  <section class="grid">
+    <!-- Embed Videos -->
+    <iframe src="https://www.youtube.com/embed/1ZT8ALHN-90" title="YouTube Project" allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/1031155260" title="Vimeo Project" allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/945515105" title="Football Docu" allowfullscreen></iframe>
+    <!-- Link-only (Instagram doesn't embed well) -->
+    <a href="https://www.instagram.com/reel/DC55qSGzF6e/" target="_blank">Instagram Reel 1</a>
+    <a href="https://www.instagram.com/reel/DDpS0J6y4Zm/" target="_blank">Instagram Reel 2</a>
+    <a href="https://www.instagram.com/reel/DFlD9W4T0o9/" target="_blank">Instagram Reel 3</a>
+  </section>
 
-    <section>
-      <h2>Skills</h2>
-      <ul>
-        <li>Video Editing, Color Grading, Sound Design & Mixing</li>
-        <li>Cinematography, Camera Rigging, Lighting</li>
-        <li>Photography, Graphic Design, Social Media Content</li>
-        <li>Software: DaVinci Resolve, Premiere Pro, After Effects, Photoshop, Lightroom, OBS Studio, Canva</li>
-        <li>Languages: English, Hindi, Punjabi, Urdu</li>
-      </ul>
-    </section>
+  <section class="about">
+    <h3>About</h3>
+    <p>I'm Jai, a filmmaker, DOP, and editor based in Dubai. With six years of post-production and production experience, I bring projects to life through cinematic visuals, tight edits, and creative storytelling. I’ve worked with global brands like Nike and F1 and continue to push the boundaries of narrative and visual style.</p>
+  </section>
 
-    <section>
-      <h2>Work Experience</h2>
-      <ul>
-        <li><strong>Hype Chowk</strong> – CEO, Creative Director, Media Head</li>
-        <li><strong>Freelancing (2023–Present)</strong>
-          <ul>
-            <li>F1 Abu Dhabi Concerts Photographer</li>
-            <li>Music Video – <em>Me & You</em></li>
-            <li>Nike Concept Advert – DOP & Camera</li>
-            <li>ADIFE 2024 – Videographer</li>
-            <li>Go Out Dubai – Videographer</li>
-            <li>Middlesex Graduation Reel – Editor</li>
-            <li>Football Docu-Series – Director, DOP, Editor</li>
-            <li><em>Pehli Batting Meri</em> (2024) – Director, Editor</li>
-            <li><em>Oh Yamal!</em> – Assistant Camera Operator</li>
-            <li><em>Milk Tooth</em> – Assistant Camera Operator</li>
-          </ul>
-        </li>
-      </ul>
-    </section>
-
-    <section class="projects">
-      <h2>Featured Projects</h2>
-      <a href="https://vimeo.com/1031155260?share=copy" target="_blank">Vimeo Project</a>
-      <a href="https://www.youtube.com/watch?v=1ZT8ALHN-90" target="_blank">YouTube Project</a>
-      <a href="https://www.instagram.com/reel/DC55qSGzF6e/" target="_blank">Instagram Reel 1</a>
-      <a href="https://www.instagram.com/reel/DDpS0J6y4Zm/" target="_blank">Instagram Reel 2</a>
-      <a href="https://www.instagram.com/reel/DFlD9W4T0o9/" target="_blank">Instagram Reel 3</a>
-      <a href="https://vimeo.com/945515105?share=copy" target="_blank">Vimeo – Football Docu</a>
-      <a href="https://youtu.be/CQ_4hhrRCF4?si=-sKQ4SVsfrOmWvdy" target="_blank">YouTube – Pehli Batting Meri</a>
-    </section>
-
-    <section class="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:jaimarwah8@gmail.com">jaimarwah8@gmail.com</a></p>
-      <p>Phone: +971 58 299 9920</p>
-      <p><a href="https://www.instagram.com/hypechowk/" target="_blank">@hypechowk</a></p>
-    </section>
-  </div>
+  <section class="contact">
+    <h3>Contact</h3>
+    <p>Email: <a href="mailto:jaimarwah8@gmail.com">jaimarwah8@gmail.com</a></p>
+    <p>Phone: +971 58 299 9920</p>
+    <p><a href="https://www.instagram.com/hypechowk/" target="_blank">@hypechowk</a></p>
+  </section>
 
   <footer>
-    <p>© 2025 Jai Marwah. All rights reserved.</p>
+    <p>© 2025 Jai Marwah</p>
   </footer>
 </body>
 </html>
